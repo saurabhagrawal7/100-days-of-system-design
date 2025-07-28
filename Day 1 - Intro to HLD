@@ -28,3 +28,7 @@ What is Distributed Systems?
   -  It complicates the architecture, because if servers increased how will they communicate with each other.
   -  how wil they scale up & scale down.
   -  how a server will share data across other servers.
+
+DNS?
+  - DNS stands for Domain Name System. It's like the internet's phonebook. It helps your computer find the IP address of a website (like turning google.com into 142.250.72.14). 
+  - You type a name ➜ DNS finds the IP ➜ Your browser talks to the server using that IP ➜ You get the website.
