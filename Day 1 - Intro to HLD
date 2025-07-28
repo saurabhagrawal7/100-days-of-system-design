@@ -1,0 +1,30 @@
+Introduction to High Level Design
+
+LLD 
+  - Focuses on clean code, loosely coupled code.
+  - Coding Part - OOPS, design principles, patterns.
+
+HLD focuses on building architecture of the application.
+ - what should be tech stack?
+ - reason for that tech stack?
+ - cost optimization - What would be the cost like server, scaling.
+ - what db will be used?
+ - Back of the envelope estimate - no of users your application will able to handle.
+ - Diagrams are important not code.
+ - based on Distributed Systems.
+
+Horizontal Scaling VS Vertical Scaling 
+Vertical Scaling 
+  - increasing server capacity like ram as per load.
+  - good for small scale application which has limited users.
+  - not good for application having millions of users (horizontal scaling is prefred).
+Horizontal Scaling
+  - increasing number of servers instead of increasing load for single server.
+  - these servers are called NODES and are represented by circle. 
+
+What is Distributed Systems?
+  -  Entire HLD is based on horizontal scaling i.e. DS.
+  -  DS is introduced when we talk about horizontal scaling. 
+  -  It complicates the architecture, because if servers increased how will they communicate with each other.
+  -  how wil they scale up & scale down.
+  -  how a server will share data across other servers.
