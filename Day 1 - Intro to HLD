@@ -12,6 +12,7 @@ HLD focuses on building architecture of the application.
  - Back of the envelope estimate - no of users your application will able to handle.
  - Diagrams are important not code.
  - based on Distributed Systems.
+ - Anything that we do in HLD is to make our application scale better. 
 
 Horizontal Scaling VS Vertical Scaling 
 Vertical Scaling 
