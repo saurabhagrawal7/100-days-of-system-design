@@ -1,0 +1,9 @@
+Non Relational Databases - for storing unstructured data like JSON.
+  1. Key - Value Store : Amazon Dynamo DB
+  2. Column Based Store : Casandra DB
+  3. Document Based Store : Mongo DB
+  4. Graph Store (represents relationship data like graphs in DSA) : Graph QL 
+
+Criterias to decide?
+1. Is your data in structured manner (rows & cols).
+2. Response time - low latency & faster response time (non relation databases are faster & has low latency).
