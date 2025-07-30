@@ -7,3 +7,27 @@ Non Relational Databases - for storing unstructured data like JSON.
 Criterias to decide?
 1. Is your data in structured manner (rows & cols).
 2. Response time - low latency & faster response time (non relation databases are faster & has low latency).
+
+1. Vertical Scaling (Scaling Up)
+  Definition:
+    Increasing the power (CPU, RAM, storage) of a single server.
+  Example:
+    Upgrading from a server with 8 GB RAM and 4 cores to one with 64 GB RAM and 16 cores.
+  Disadvantages:
+    There's a physical limit to how much you can scale up.
+
+2. Horizontal Scaling (Scaling Out)
+  Definition:
+    Adding more servers (nodes) to the system.
+  Example:
+    Running your web app on 10 servers instead of 1.
+  Advantages:
+    Virtually unlimited scalability.
+    High availability and fault tolerance (if one node fails, others take over).
+    Better suited for distributed systems like microservices.
+  Disadvantages:
+    More complex (needs load balancers, distributed data management, etc.).
+    May require changes to application architecture.  
+    Data consistency can be a challenge.
+
+Load Balancer - A load balancer is a system or device that distributes incoming network traffic across multiple servers to ensure no single server gets overwhelmed.
